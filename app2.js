@@ -27,7 +27,7 @@ app.get('/', (request, response) => {
 app.get('/users', (request, response) => {
 
     // JS promise
-    fetch('https://randomuser.me/api/?results=5000')
+    fetch('https://randomuser.me/api/?results=50')
 
         .then(val => val.json())
         .then(val => {
