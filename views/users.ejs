@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+</head>
+
+<body>
+    <h2>Users</h2>
+
+    <ul>
+        <% for (var i=0; i < data.length; i++) { %>
+
+        <li>
+            <h3> <img src="<%= data[i].picture.thumbnail %>" alt=""> <%= data[i].name.first %> <%= data[i].name.last %>  - <small>foster@email.com</small></h3>
+        </li>
+
+        <% } %>
+
+    </ul>
+</body>
+
+</html>

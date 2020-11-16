@@ -1,0 +1,158 @@
+<html>
+
+<!-- head: is not seen in the browser -->
+
+<head>
+    <title>My first website. new</title>
+    <!-- external -->
+    <link rel="stylesheet" href="test.css">
+
+    <!-- embeded -->
+    <style>
+        
+    </style>
+
+</head>
+
+<!-- body -->
+
+<body>
+    <!-- header: h1 - h6 -->
+    <h1>
+        Today : <%= dog%>
+    </h1>
+
+    <p >"We should take advantage of every moment we can to enjoy the simplicity of God's creation, whether it be clear
+        skies and sun or clouded over with gloom.
+
+        "And hey, if the air is this clear right now, and it does rain tomorrow, I might even put jars and bins out and
+        catch the rain.</p>
+
+
+    <!-- block tags -->
+    <h1>go</h1>
+    <h2>come</h2>
+
+
+
+    <!-- inline tags -->
+    <a href="https://google.com">facebook</a>
+
+
+
+    <!-- image -->
+    <!-- <img src="https://images.unsplash.com/photo-1598870074505-02f0ed0d4b8c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1882&q=80"/> -->
+
+
+
+    <!-- common tags used -->
+    <!-- header tag: h1 - h6 -->
+    <h1>header 1</h1>
+    <h2>header 2</h2>
+    <h3>header 3</h3>
+
+    <!-- image tag: img -->
+    <img src="https://acity.edu.gh/assets/executive-ac-fred.jpg">
+
+    <!-- anchor: a -->
+    <a href="https://facebook.com">Google</a>
+
+    <!-- button: button -->
+    <button>Click here to go home</button>
+
+    <!-- paragraph: p -->
+    <p> <b> Lorem</b> ipsum <u>dolor</u> sit, amet consectetur
+        adipisicing elit. Hic quo aliquam sint ad
+        provident doloremque iste <i>veritatis</i> mollitia
+        quia ea eos sed ratione fugit architecto
+        labore nisi eum, placeat maiores?</p>
+
+    <!-- input: input -->
+    <input type="date">
+
+
+
+    <br><br><br><br><br><br>
+
+    <h1>FORMS</h1>
+    <hr>
+
+
+    <h3>Registration form</h3>
+
+    <!-- form action: what the browser should do when you submit the form  -->
+    <form  method="POST" action="https://acity.edu.gh">
+
+        Name: <input name="fullName" type="text">
+        <br><br>
+
+        Email: <input name="email" type="email">
+        <br><br>
+
+        Programe:
+        <!-- first button -->
+        <input type="radio" name="program"><label>Computer Science</label>
+        <!-- second button -->
+        <input type="radio" name="program"><label>IT</label>
+        <br><br>
+
+        <!-- program = IT -->
+
+        Gender:
+        <select name="gender">
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+        <br><br>
+
+        Intrests:
+        <input type="checkbox" name="interest_eating"><label>Eating</label>
+        <input type="checkbox"><label>Watching Anime</label>
+        <input type="checkbox"><label>Reading</label>
+        <input type="checkbox"><label>Sports</label>
+
+        <br><br>
+
+
+        <!-- Profile Image: <input type="file"> -->
+
+
+        <br><br><br>
+
+        <button type="submit">Send form</button>
+        <input type="submit" value="Submit my form">
+
+        https://images.unsplash.com/photo-1493106819501-66d381c466f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=80
+
+
+    </form>
+
+
+<!-- <button></button> -->
+
+<!-- mail form -->
+
+<!-- submit forms in 2 ways 
+
+    GET method;
+    POST method;
+    PUT 
+    DELETE
+    PATCH
+-->
+
+<form action="mailto:foster.adorkor@acity.edu.gh">
+    What is your issue?: 
+    <input name="subject" type="text">
+    <br><br>
+    Give a brief description of the problem         <br>
+    <textarea name="body" cols="30" rows="10"></textarea>
+
+    <br><br><br>
+    <button type="submit">Send Issue</button>
+</form>
+
+</body>
+
+
+</html>
